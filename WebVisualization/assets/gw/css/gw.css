@@ -1,0 +1,119 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 150px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: rgb(220,220,220);
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    background-color:rgb(255,255,255);
+  }
+}
+
+.navbar-gw {
+  background-color: rgb(255,255,255);
+}
+
+#home-button {
+  height: 80px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color:rgb(255,255,255);
+  background-color:rgb(75,175,175);
+}
+
+.navbar-custom {
+  padding-top: 20px;
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+.title-header {
+  margin-bottom: 40px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color:rgb(75,175,175);
+}
+
+.title-content {
+  padding: 30px;
+  margin-top: 32px;
+  background-color: rgb(255,255,255);
+}
+
+.title-content > p {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(0,0,0);
+}
+
+#title-image {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+  .title-content {
+    padding: 0;
+    margin-top: 0;
+  }
+}
+
+#imageNav-area {
+  width: 100%;
+  padding: 30px 30px 43px;
+  margin-top: 32px;
+  background-color:rgb(255,255,255);
+}
+
+.imageNav-header {
+  margin-bottom: 15px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(75,175,175);
+}
+
+.imageNav-photo {
+  width: 140px;
+  height: 140px;
+}
+
+.imageNav-photo:hover {
+  opacity: 0.6;
+}
+
+.imageNav-photo.active {
+  border: 2px solid rgb(75,175,175);
+}
+
+#images {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.comparison-header {
+  margin-bottom: 10px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(75,175,175);
+  text-align: center;
+}
+
+
+
